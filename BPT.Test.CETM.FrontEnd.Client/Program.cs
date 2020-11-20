@@ -39,7 +39,7 @@ namespace BPT.Test.CETM.FrontEnd.Client
             }
             catch (WebException ex)
             {
-                // Handle error
+                
             }
         }
         private static void GetItems(int id)
@@ -60,7 +60,7 @@ namespace BPT.Test.CETM.FrontEnd.Client
                         using (StreamReader objReader = new StreamReader(strReader))
                         {
                             string responseBody = objReader.ReadToEnd();
-                            // Do something with responseBody
+                           
                             Console.WriteLine(responseBody);
                         }
                     }
