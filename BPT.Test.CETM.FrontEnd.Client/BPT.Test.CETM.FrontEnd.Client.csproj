@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BPT.Test.CETM.BackEnd.Dominio\BPT.Test.CETM.BackEnd.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

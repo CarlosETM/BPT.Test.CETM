@@ -6,8 +6,6 @@ namespace BPT.Test.CETM.BackEnd.Dominio
 {
     public class AsignaturaEstudiante
     {
-        public int Id { get; set; }
-
         public int IdAsignatura { get; set; }
 
         public int IdEstudiante { get; set; }

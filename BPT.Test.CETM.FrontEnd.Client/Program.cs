@@ -12,11 +12,12 @@ namespace BPT.Test.CETM.FrontEnd.Client
         }
         private static void GetItems()
         {
-            var url = $"http://localhost:44378/weatherforecast";
+            var url = $"http://localhost:49207/weatherforecast";
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "GET";
             request.ContentType = "application/json";
             request.Accept = "application/json";
+          
 
             try
             {
@@ -28,7 +29,7 @@ namespace BPT.Test.CETM.FrontEnd.Client
                         using (StreamReader objReader = new StreamReader(strReader))
                         {
                             string responseBody = objReader.ReadToEnd();
-                            // Do something with responseBody
+                          
                             Console.WriteLine(responseBody);
                         }
                     }
