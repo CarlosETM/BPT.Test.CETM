@@ -17,8 +17,8 @@ namespace BPT.Test.CETM.FrontEnd.Client
             request.Method = "GET";
             request.ContentType = "application/json";
             request.Accept = "application/json";
-          
 
+            request.Referer = url;
             try
             {
                 using (WebResponse response = request.GetResponse())

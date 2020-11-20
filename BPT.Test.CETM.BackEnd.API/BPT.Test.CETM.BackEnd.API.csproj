@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BPT.Test.CETM.BackEnd.Aplicacion\BPT.Test.CETM.BackEnd.Aplicacion.csproj" />
     <ProjectReference Include="..\BPT.Test.CETM.BackEnd.Dominio\BPT.Test.CETM.BackEnd.DataAccess.csproj" />
   </ItemGroup>
 
