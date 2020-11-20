@@ -35,5 +35,23 @@ namespace BPT.Test.CETM.BackEnd.API.Controllers
 
 
         }
+        [HttpGet("{id}")]
+        public IEnumerable<Asignacion> GetId(int id)
+        {
+            //string[] nombres = new string[] { "Juan","Lucas","Carlos","Maria" };
+            try
+            {
+               
+               
+                return context.Asignaciones.Where(p => p.Id==id).ToList();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+        }
     }
 }
