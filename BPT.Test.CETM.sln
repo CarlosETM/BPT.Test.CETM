@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPT.Test.CETM.BackEnd.API", "BPT.Test.CETM.BackEnd.API\BPT.Test.CETM.BackEnd.API.csproj", "{000A3993-7C8D-4FBF-874C-82F56534923B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPT.Test.CETM.BackEnd.DataAccess", "BPT.Test.CETM.BackEnd.DataAccess\BPT.Test.CETM.BackEnd.DataAccess.csproj", "{BE2551A4-1B7E-441E-A0B4-7F45D701C65B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPT.Test.CETM.BackEnd.DataAccess", "BPT.Test.CETM.BackEnd.Dominio\BPT.Test.CETM.BackEnd.DataAccess.csproj", "{114CB71F-55F0-41B3-A302-A3DDB588736D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPT.Test.CETM.BackEnd.Dominio", "BPT.Test.CETM.BackEnd.Dominio\BPT.Test.CETM.BackEnd.Dominio.csproj", "{114CB71F-55F0-41B3-A302-A3DDB588736D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPT.Test.CETM.BackEnd.Aplicacion", "BPT.Test.CETM.BackEnd.Aplicacion\BPT.Test.CETM.BackEnd.Aplicacion.csproj", "{60B9F52D-2A1B-4500-84B3-1A0C15A181A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPT.Test.CETM.FrontEnd.Client", "BPT.Test.CETM.FrontEnd.Client\BPT.Test.CETM.FrontEnd.Client.csproj", "{D8AA981A-74B3-4FCE-BD95-84D62E8FA9EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,18 @@ Global
 		{000A3993-7C8D-4FBF-874C-82F56534923B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{000A3993-7C8D-4FBF-874C-82F56534923B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{000A3993-7C8D-4FBF-874C-82F56534923B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BE2551A4-1B7E-441E-A0B4-7F45D701C65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE2551A4-1B7E-441E-A0B4-7F45D701C65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE2551A4-1B7E-441E-A0B4-7F45D701C65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE2551A4-1B7E-441E-A0B4-7F45D701C65B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{114CB71F-55F0-41B3-A302-A3DDB588736D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{114CB71F-55F0-41B3-A302-A3DDB588736D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114CB71F-55F0-41B3-A302-A3DDB588736D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114CB71F-55F0-41B3-A302-A3DDB588736D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B9F52D-2A1B-4500-84B3-1A0C15A181A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B9F52D-2A1B-4500-84B3-1A0C15A181A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B9F52D-2A1B-4500-84B3-1A0C15A181A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B9F52D-2A1B-4500-84B3-1A0C15A181A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AA981A-74B3-4FCE-BD95-84D62E8FA9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AA981A-74B3-4FCE-BD95-84D62E8FA9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AA981A-74B3-4FCE-BD95-84D62E8FA9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AA981A-74B3-4FCE-BD95-84D62E8FA9EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
